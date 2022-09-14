@@ -1,18 +1,21 @@
-#include "0-putchar.h"
+#include "main.h"
 
 /**
- * main - prints the string "0-putchar.c" from a character array.
- * Return: 0 on success.
+ * main - prints putchar
+ *return - always 0
  */
+
 int main(void)
 {
-	char c[] = "Holberton";
-	int i;
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar("\n");
 
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}	
-	_putchar('\n');
 	return (0);
 }
